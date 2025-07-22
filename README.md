@@ -39,7 +39,7 @@ eval("hard");
 2. Run the script using Python 3:
 
 ```bash
-python3 deobfuscate.py
+python3 deobfuscator.py
 ```
 
 3. The output will be written to `deobfuscated.php`.
