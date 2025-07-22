@@ -13,7 +13,7 @@ This script:
 
 1. Decodes the URL-encoded "alphabet".
 2. Replaces all `$O[index]` instances with their corresponding decoded character.
-3. Cleans up unnecessary PHP string concatenations (`". "`).
+3. Cleans up unnecessary PHP string concatenations (`" . "`).
 4. Outputs a deobfuscated PHP file.
 
 ---
@@ -39,7 +39,7 @@ eval("hard");
 2. Run the script using Python 3:
 
 ```bash
-python3 deobfuscate.php.py
+python3 deobfuscate.py
 ```
 
 3. The output will be written to `deobfuscated.php`.
@@ -66,7 +66,7 @@ python3 deobfuscate.php.py
 ## 🎤 Background
 
 This tool was originally created during a Red Team engagement where analyzing obfuscated web shells was necessary to identify attacker behavior.  
-It was also featured in my talk at [BSides Vix 2025](#) on malware deobfuscation techniques.
+It was also featured in my talk at [BSides Vix 2025](https://bsides.vix.br/) on malware deobfuscation techniques.
 
 ---
 
